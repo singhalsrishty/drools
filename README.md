@@ -32,6 +32,8 @@ SpreadSheet Decision Tables, Guided Rules, Guided Rule Templates, DRL Rules, Pre
 - Our application should be sufficient and capable enough to validate and execute drools rules as our Business Rules.
 - Executing drools files is also known as executing assets.
 
+![Drools Flow](/Drools_Embedded.png)
+
 Drools with an IDE and an embedded Java application:
 - Drools libraries embedded within a custom application such as a Microservice.
 - External Git repository for project versioning (not synchronized with Business Central) and 
