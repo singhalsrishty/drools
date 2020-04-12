@@ -1,0 +1,20 @@
+import com.drools.org.droolsexample.model.MastercardOffer;
+
+rule "Offer for Credit Card Elite"
+	when 
+		offerObject: MastercardOffer(channel == "elite")
+	then
+		offerObject.setDiscount("17");
+	end
+rule "Offer for Credit Card WorldClass"
+	when 
+		offerObject: MastercardOffer(channel == "worldclass")
+	then
+		offerObject.setDiscount("20");
+	end 
+rule "Offer for Credit Card MasterCom"
+	when 
+		offerObject: MastercardOffer(channel == "mastercom")
+	then
+		offerObject.setDiscount("19");
+	end
