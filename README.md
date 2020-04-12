@@ -27,12 +27,12 @@ Decision Authoring Asset - Language/syntax/tool that you can use to "define" or 
 SpreadSheet Decision Tables, Guided Rules, Guided Rule Templates, DRL Rules, Predictive Model Markup Language (PMML).
 1. DRL Rules - Have rules in .drl files, is optimal for creating rules that require advance DRL options.
 1. PMML Models - Are optimal for incorporating predictive data into decision services.
-
+	
 **No need to create a Drool Project with KJar packaging, You can embed drools into your microservice as well.**
 - Our application should be sufficient and capable enough to validate and execute drools rules as our Business Rules.
 - Executing drools files is also known as executing assets.
 
-![Drools Flow](/Drools_Embedded.png)
+![Drools Flow](https://github.com/singhalsrishty/drools/blob/master/Drools_Embedded.PNG)
 
 Drools with an IDE and an embedded Java application:
 - Drools libraries embedded within a custom application such as a Microservice.
