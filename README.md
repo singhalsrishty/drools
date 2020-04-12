@@ -3,13 +3,13 @@
 
 [Documentation link ](https://docs.jboss.org/drools/release/7.35.0.Final/drools-docs/html_single/index.html#decision-engine-con_decision-engine)
 
-##Introduction
+## Introduction
 Drools is a business-rule management system with a forward-chaining and backward-chaining inference-based rules engine, 
 allowing fast and reliable evaluation of business rules and complex event processing. A rules engine is also a fundamental 
 building block to create an expert system which, in artificial intelligence, is a computer system that emulates the decision-making 
 ability of a human expert.
 
-##Drools engine
+## Drools engine
 The Drools engine is the rules engine in Drools. The Drools engine stores, processes, and evaluates data to execute the business rules or 
 decision models that you define. The basic function of the Drools engine is to match incoming data, or facts, to the conditions of rules and 
 determine whether and how to execute the rules.
