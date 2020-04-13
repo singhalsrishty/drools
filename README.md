@@ -1,5 +1,5 @@
 # Drools
-*This Repository contains A Demo Drool Embedded Project*
+*This Repository contains an Embedded Drool Demo Project*
 
 ## Usage
 Clone and Run DroolsexampleApplication.java, then render to http://localhost:9898/drools/v1/drools/offer/{card-type} 
