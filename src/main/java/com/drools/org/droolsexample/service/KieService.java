@@ -8,11 +8,11 @@ import com.drools.org.droolsexample.model.MastercardOffer;
 
 public class KieService {
 	
-	public static void main(String[] args) {
-		applyMasterCardOfferRule();
-	}
-	
-	public static void applyMasterCardOfferRule() {
+	/**
+	 * Get offer for input card-type
+	 * @return
+	 */
+	public String applyMasterCardOfferRule(String cardType) {
 		KieServices kieServices = KieServices.Factory.get();
 		KieContainer kieContainer = kieServices.getKieClasspathContainer();
 		
@@ -20,10 +20,11 @@ public class KieService {
 		KieSession kieSession1 = kieContainer.newKieSession("KSession1");
 		//StatelessKieSession kieSession2 = kieContainer.newStatelessKieSession("KSession2");
 		
-		MastercardOffer mastercardOffer = new MastercardOffer("elite", null);
+		MastercardOffer mastercardOffer = new MastercardOffer(cardType, null);
 		kieSession1.insert(mastercardOffer);
 		kieSession1.fireAllRules();
-		System.out.println("Discounted Offer: " + mastercardOffer.getDiscount());
+		
+		return "Discounted Offer for this card type is: " + mastercardOffer.getDiscount();
 		
 	}
 

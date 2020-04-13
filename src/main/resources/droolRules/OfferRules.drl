@@ -14,7 +14,7 @@ rule "Offer for Credit Card WorldClass"
 	end 
 rule "Offer for Credit Card MasterCom"
 	when 
-		offerObject: MastercardOffer(channel == "mastercom")
+		offerObject: MastercardOffer(channel == "master")
 	then
 		offerObject.setDiscount("19");
 	end

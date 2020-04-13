@@ -1,5 +1,10 @@
 # Drools
-*This Repository contains Drool Related Projects*
+*This Repository contains A Demo Drool Embedded Project*
+
+## Usage
+Clone and Run Application.java, then render to http://localhost:9898/drools/v1/drools/offer<card-type> 
+to enquire the discount on respective card-type.
+card-type could be - elite, master, worldclass
 
 [Documentation link ](https://docs.jboss.org/drools/release/7.35.0.Final/drools-docs/html_single/index.html#decision-engine-con_decision-engine)
 
