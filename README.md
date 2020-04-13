@@ -75,6 +75,6 @@ KieFileSystem, a sort of virtual file system can be used to define the KieBases 
 - set path to settings.xml in property kie.maven.settings.custom
 
 ##### Appendix
-POJOs are known as Facts
-DRL files are known as Rules
+- POJOs are known as Facts
+- DRL files are known as Rules
 
