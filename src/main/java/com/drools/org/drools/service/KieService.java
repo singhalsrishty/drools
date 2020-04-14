@@ -1,10 +1,10 @@
-package com.drools.org.droolsexample.service;
+package com.drools.org.drools.service;
 
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
-import com.drools.org.droolsexample.model.MastercardOffer;
+import com.drools.org.drools.model.MastercardOffer;
 
 public class KieService {
 	

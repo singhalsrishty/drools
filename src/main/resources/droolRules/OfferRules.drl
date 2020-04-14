@@ -1,4 +1,4 @@
-import com.drools.org.droolsexample.model.MastercardOffer;
+import com.drools.org.drools.model.MastercardOffer;
 
 rule "Offer for Credit Card Elite"
 	when 

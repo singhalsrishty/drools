@@ -1,4 +1,4 @@
-package com.drools.org.droolsexample.model;
+package com.drools.org.drools.model;
 
 public class MastercardOffer {
 	

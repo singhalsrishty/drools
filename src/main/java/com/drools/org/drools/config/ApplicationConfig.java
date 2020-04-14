@@ -1,9 +1,9 @@
-package com.drools.org.droolsexample.config;
+package com.drools.org.drools.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.drools.org.droolsexample.service.KieService;
+import com.drools.org.drools.service.KieService;
 
 @Configuration
 public class ApplicationConfig {
