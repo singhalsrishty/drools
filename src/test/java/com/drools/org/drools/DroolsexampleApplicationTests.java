@@ -1,4 +1,4 @@
-package com.drools.org.droolsexample;
+package com.drools.org.drools;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
