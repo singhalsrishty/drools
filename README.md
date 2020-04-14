@@ -2,7 +2,7 @@
 *This Repository contains an Embedded Drool Demo Project*
 
 ## Usage
-Clone and Run DroolsexampleApplication.java, then render to http://localhost:9898/drools/v1/drools/offer/{card-type} 
+Clone, Build (using mvn clean install) and Run DroolsexampleApplication.java as a Java Application, then render to http://localhost:9898/drools/v1/drools/offer/{card-type} 
 to enquire the discount on respective card-type.
 card-type could be - elite, master, worldclass
 
