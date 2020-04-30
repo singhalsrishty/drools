@@ -6,7 +6,7 @@ import org.kie.api.runtime.KieSession;
 
 import com.drools.org.drools.model.MastercardOffer;
 
-public class KieService {
+public class DroolsService {
 	
 	/**
 	 * Get offer for input card-type
