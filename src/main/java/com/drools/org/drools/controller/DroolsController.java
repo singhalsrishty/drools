@@ -19,5 +19,5 @@ public class DroolsController {
 	public String getOffer(@PathVariable("card-type") String cardType) {
 		return this.kieService.applyMasterCardOfferRule(cardType);
 	}
-
+	
 }
