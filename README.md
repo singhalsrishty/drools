@@ -1,3 +1,29 @@
+#Cache - Spring Cache (ConcurrentMapCacheManager)
+*Cache Evict and load demonstrated in this POC*
+
+###For adding data to cache
+- Request Type: POST
+- Endpoint: http://localhost:9898/drools/v1/cache/cache
+- Sample JSON request:
+	{
+		
+		"sourceCurrency" : "INR",
+		"destinationCurrency" : "ABB",
+		"midRate" : "90",
+		"buyRate" : "97", 
+		"sellRate" : "88", 
+		"dateTime" : "Fri May 06 2020"
+		
+	}
+
+###For getting data from cache
+- Request Type: GET
+- Endpoint: http://localhost:9898/drools/v1/cache/cache
+
+###For clearing cache
+- Request Type: POST
+- Endpoint: http://localhost:9898/drools/v1/cache/clearcache
+
 # Drools
 *This Repository contains an Embedded Drool Demo Project*
 
