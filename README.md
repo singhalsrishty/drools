@@ -1,7 +1,7 @@
-#Cache - Spring Cache (ConcurrentMapCacheManager)
-*Cache Evict and load demonstrated in this POC*
+# Cache - Spring Cache (ConcurrentMapCacheManager)
+* Cache Evict and load demonstrated in this POC*
 
-###For adding data to cache
+### For adding data to cache
 - Request Type: POST
 - Endpoint: http://localhost:9898/drools/v1/cache/cache
 - Sample JSON request:
@@ -16,11 +16,11 @@
 		
 	}
 
-###For getting data from cache
+### For getting data from cache
 - Request Type: GET
 - Endpoint: http://localhost:9898/drools/v1/cache/cache
 
-###For clearing cache
+### For clearing cache
 - Request Type: POST
 - Endpoint: http://localhost:9898/drools/v1/cache/clearcache
 
