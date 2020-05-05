@@ -1,5 +1,5 @@
 # Cache - Spring Cache (ConcurrentMapCacheManager)
-* Cache Evict and load demonstrated in this POC*
+* Cache Evict and load demonstrated in this POC
 
 ### For adding data to cache
 - Request Type: POST
