@@ -9,6 +9,16 @@ public class RateFile {
 	private String sellRate;
 	private String dateTime;
 	
+	public RateFile(String sourceCurrency, String destinationCurrency, String midRate, String buyRate, String sellRate,
+			String dateTime) {
+		super();
+		this.sourceCurrency = sourceCurrency;
+		this.destinationCurrency = destinationCurrency;
+		this.midRate = midRate;
+		this.buyRate = buyRate;
+		this.sellRate = sellRate;
+		this.dateTime = dateTime;
+	}
 	public String getSourceCurrency() {
 		return sourceCurrency;
 	}
